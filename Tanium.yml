@@ -1,0 +1,4 @@
+---
+- name: install tanium package
+  become: true
+  tasks: install tanium in linux

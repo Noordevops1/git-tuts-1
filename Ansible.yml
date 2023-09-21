@@ -1,0 +1,10 @@
+ ---
+- name: copy userseed.conf
+  copy:
+    src: user-seed.conf
+    dest: /opt/splunkforwarder/etc/system/local
+    owner: splunk
+    group: splunk
+    mode: "0600"
+    become: true
+    become_user: root
